@@ -22,9 +22,9 @@ Paste the following configuration for (delta)[https://dandavison.github.io/delta
 
     # delta detects terminal colors automatically; set one of these to disable auto-detection
     dark = true
-        line-numbers = true
-        side-by-side = true
     # light = true
+    line-numbers = true
+    side-by-side = true
 
 [merge]
     conflictstyle = zdiff3
