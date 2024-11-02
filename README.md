@@ -28,13 +28,4 @@ Paste the following configuration for [delta](https://dandavison.github.io/delta
 
 [merge]
     conflictstyle = zdiff3
-[remote "origin"]
-        url = https://github.com/MuthanaIT/Rahma-Legacy-Healthcare.git
-        fetch = +refs/heads/*:refs/remotes/origin/*
-[user]
-        name = MuthanaIT
-        email = muthanaali@warithit.com
-[branch "master"]
-        remote = origin
-        merge = refs/heads/master
 ```
