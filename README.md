@@ -9,7 +9,7 @@ Initialize the directory with git and navigate to the config and paste the follo
 git init
 sudo vim .git/config
 ```
-Paste the following configuration for (delta)[https://dandavison.github.io/delta/get-started.html] for easier navigation for the code changes.
+Paste the following configuration for [delta](https://dandavison.github.io/delta/get-started.html) for easier navigation for the code changes.
 ```ini
 [core]
     pager = delta
