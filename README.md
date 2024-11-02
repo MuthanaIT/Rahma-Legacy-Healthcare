@@ -1,8 +1,8 @@
 # Rahma Legacy Healthcare Changes
 To use this repo, simply clone this repository to your local machine.
 ```bash
-git clone https://github.com/MuthanaIT/Rahma-Legacy-Healthcare.git
-cd Rahma-Legacy-Healthcare
+git clone https://github.com/MuthanaIT/Rahma-Legacy-Healthcare-Changes.git
+cd Rahma-Legacy-Healthcare-Changes
 ```
 Initialize the directory with git and navigate to the config and paste the following configurations.
 ```bash
