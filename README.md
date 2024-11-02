@@ -4,11 +4,14 @@ To use this repo, simply clone this repository to your local machine.
 git clone https://github.com/MuthanaIT/Rahma-Legacy-Healthcare-Changes.git
 cd Rahma-Legacy-Healthcare-Changes
 ```
-Initialize the directory with git and navigate to the config and paste the following configurations.
+You can instantly open any code editor with either `healthcare-changes.txt` or `output.txt` or for a more professional approach, use delta by using this guide.
+
+## Using delta
+Initialize the directory with git and navigate to the config and paste the following configurations. Get the clean and custom directory inside this repo and add them as remote and fetch them. 
 ```bash
 git init
 git remote add clean clean
-git remote add custom
+git remote add custom custom
 git fetch clean
 git fetch custom
 sudo vim .git/config
