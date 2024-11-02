@@ -7,9 +7,13 @@ cd Rahma-Legacy-Healthcare-Changes
 Initialize the directory with git and navigate to the config and paste the following configurations.
 ```bash
 git init
+git remote add clean clean
+git remote add custom
+git fetch clean
+git fetch custom
 sudo vim .git/config
 ```
-Paste the following configuration for [delta](https://dandavison.github.io/delta/get-started.html) for easier navigation for the code changes.
+Paste the following configuration for [delta](https://dandavison.github.io/delta/introduction.html) for easier navigation for the code changes.
 ```ini
 [core]
     pager = delta
@@ -28,4 +32,8 @@ Paste the following configuration for [delta](https://dandavison.github.io/delta
 
 [merge]
     conflictstyle = zdiff3
+```
+How to use delta with specifying the file extensions needed and filtering out changes in file modes.
+```bash
+git diff clean/master custom/master -- '*.py' '*.js' '*.json' | sed '/^diff --git a\/.* b\/.*/{N;N;d;}' | delta
 ```
